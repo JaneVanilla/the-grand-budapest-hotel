@@ -1,4 +1,8 @@
-function MoviePage(): JSX.Element {
+import {useParams} from 'react-router-dom';
+
+function FilmPage(): JSX.Element {
+  useParams();
+
   return (
     <>
       <section className="film-card film-card--full">
@@ -168,4 +172,4 @@ function MoviePage(): JSX.Element {
   );
 }
 
-export default MoviePage;
+export default FilmPage;
