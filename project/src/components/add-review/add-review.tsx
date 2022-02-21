@@ -1,4 +1,6 @@
+import {useParams} from 'react-router-dom';
 function AddReview(): JSX.Element {
+  useParams();
   return (
     <section className="film-card film-card--full">
       <div className="film-card__header">
